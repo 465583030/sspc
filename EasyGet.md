@@ -1,0 +1,21 @@
+```java
+import org.apache.http.HttpEntity;
+import org.apache.http.HttpHost;
+import org.apache.http.HttpVersion;
+import org.apache.http.client.fluent.Form;
+import org.apache.http.client.fluent.Request;
+import org.apache.http.entity.ContentType;
+
+import java.io.IOException;
+import java.nio.charset.Charset;
+
+/**
+ * Created by maoxiangyi on 2017/6/26.
+ */
+public class EasyGet {
+    public static void main(String[] args) throws IOException {
+        String html = Request.Get("http://shop.itcast.cn").execute().returnContent().asString(Charset.forName("UTF-8"));
+        System.out.println(html);
+    }
+}
+```java
