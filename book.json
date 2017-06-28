@@ -1,0 +1,24 @@
+{
+  "title": "搜索爬虫系统开发",
+  "description": "搜索爬虫系统可以说是最基础的应用，期望帮助更多的人快捷的搜索爬虫知识。",
+  "language": "zh",
+  "plugins": [
+    "disqus",
+    "github",
+    "prism",
+    "-highlight",
+    "splitter",
+    "sitemap"
+  ],
+  "pluginsConfig": {
+    "disqus": {
+      "shortName": "搜索爬虫系统开发"
+    },
+    "github": {
+      "url": "https://github.com/maoxiangyi"
+    },
+    "sitemap": {
+        "hostname": "http://www.maoxiangyi.cn"
+    }
+  }
+}
